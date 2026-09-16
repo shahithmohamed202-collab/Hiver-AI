@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large raw dataset
+data/twcs.csv
+
+# Generated experiment artifacts
+output/*.jsonl
+output/*.faiss
+output/*.pkl
+
+# Keep small documentation/annotation outputs
+!output/ANNOTATION_GUIDE.txt
+!output/d2_diagnostic_examples.txt
+!output/human_annotations_clean.csv
+!output/human_annotation_sample.csv
+!output/retrieval_evaluation.json

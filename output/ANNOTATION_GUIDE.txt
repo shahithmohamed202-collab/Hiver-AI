@@ -1,0 +1,190 @@
+HIVER AI — EVIDENCE COMPLETENESS ANNOTATION GUIDE
+==================================================
+
+PURPOSE
+-------
+Determine whether a historical AmazonHelp conversation contains
+enough observable evidence to safely reuse it as grounding evidence
+for a future customer-support response.
+
+IMPORTANT
+---------
+Evidence completeness is NOT the same as resolution.
+
+A conversation can be evidence-complete even if the customer's
+problem was not ultimately solved, as long as the transcript provides
+enough concrete information and an observable support action.
+
+A conversation can also be incomplete even if it looks successful.
+
+--------------------------------------------------
+1. evidence_complete
+--------------------------------------------------
+
+YES:
+Choose YES when the conversation contains enough concrete information
+to understand the issue AND at least one meaningful support action or
+useful observable outcome.
+
+NO:
+Choose NO when the transcript is too vague, consists mainly of
+acknowledgements/DM redirects, lacks a meaningful action, or provides
+insufficient evidence to justify reusing the conversation.
+
+Think:
+
+"Could an AI safely use this conversation as evidence for answering
+a similar customer?"
+
+YES = enough evidence
+NO  = insufficient evidence
+
+
+--------------------------------------------------
+2. action_observed
+--------------------------------------------------
+
+YES:
+AmazonHelp performs or clearly states a concrete support action.
+
+Examples:
+- checks an order
+- investigates an issue
+- processes/refers to a refund
+- confirms a status
+- provides a specific instruction
+- explains a concrete next step
+- confirms an account/order state
+
+NO:
+Only generic responses, greetings, apologies, acknowledgements,
+or requests to continue in DM without a concrete action.
+
+
+--------------------------------------------------
+3. customer_reaction_observed
+--------------------------------------------------
+
+YES:
+The customer responds after an agent action with an observable
+reaction.
+
+Examples:
+- thanks the agent
+- confirms the issue is fixed
+- says the problem still exists
+- says the solution worked
+- provides feedback about the action
+
+NO:
+There is no customer response after the relevant agent action.
+
+IMPORTANT:
+Silence does NOT mean the problem was solved.
+
+
+--------------------------------------------------
+4. dm_redirect
+--------------------------------------------------
+
+YES:
+AmazonHelp redirects the customer to DM/private messaging before
+providing a concrete public action.
+
+NO:
+No such redirect occurs, OR the redirect occurs after a meaningful
+specific action.
+
+IMPORTANT:
+A DM redirect alone is NOT evidence of resolution.
+
+
+--------------------------------------------------
+5. notes
+--------------------------------------------------
+
+Use notes for unusual cases.
+
+Examples:
+
+"Very specific issue but only DM redirect."
+
+"Concrete refund action, but customer gives no reaction."
+
+"Customer confirms issue resolved."
+
+"Generic response only."
+
+"Ambiguous case — insufficient observable evidence."
+
+
+--------------------------------------------------
+DECISION PRINCIPLE
+--------------------------------------------------
+
+When uncertain, prefer NO.
+
+We are measuring whether evidence is sufficient to safely ground
+future support responses, so unsupported assumptions should not be
+treated as complete evidence.
+
+
+--------------------------------------------------
+EXAMPLES
+--------------------------------------------------
+
+Example A:
+Customer: "My order #12345 was supposed to arrive yesterday."
+Agent: "I checked the order and it is delayed until tomorrow."
+
+evidence_complete = YES
+action_observed = YES
+customer_reaction_observed = NO
+dm_redirect = NO
+
+
+Example B:
+Customer: "Where is my order?"
+Agent: "Hi! Sorry about that. Please DM us."
+
+evidence_complete = NO
+action_observed = NO
+customer_reaction_observed = NO
+dm_redirect = YES
+
+
+Example C:
+Customer: "I was charged twice for order #123."
+Agent: "I've checked the order and submitted a refund for the
+duplicate charge."
+Customer: "Thank you!"
+
+evidence_complete = YES
+action_observed = YES
+customer_reaction_observed = YES
+dm_redirect = NO
+
+
+Example D:
+Customer: "This is not working."
+Agent: "Sorry to hear that. Please contact us by DM."
+
+evidence_complete = NO
+action_observed = NO
+customer_reaction_observed = NO
+dm_redirect = YES
+
+
+Example E:
+Customer: "My refund hasn't arrived."
+Agent: "We've checked the refund and it is still processing."
+Customer: "It is still not showing."
+
+evidence_complete = YES
+action_observed = YES
+customer_reaction_observed = YES
+dm_redirect = NO
+
+NOTE:
+The problem is NOT necessarily resolved, but the transcript contains
+meaningful evidence.

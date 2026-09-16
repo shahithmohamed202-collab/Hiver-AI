@@ -1,0 +1,1069 @@
+================================================================================
+D2 DIAGNOSTIC REPORT
+================================================================================
+
+Total AmazonHelp messages : 157,000
+Messages containing an action word : 43,357
+Action-word message rate : 27.62%
+
+
+================================================================================
+SECTION 1 — MESSAGES CONTAINING ACTION WORDS
+================================================================================
+
+[1]
+Conversation ID: 2899678
+Agent message:
+@32653 Oh no! Here's a link that she can use to contact us: https://t.co/hApLpMlfHN ^TR
+
+--------------------------------------------------------------------------------
+
+[2]
+Conversation ID: 379607
+Agent message:
+@198902 Apologies for the ordeal. Please fill this form here: https://t.co/GIJyeYqKE0. We'll contact you soon. ^PS
+
+--------------------------------------------------------------------------------
+
+[3]
+Conversation ID: 109854
+Agent message:
+@140392 Thank you for sharing the required details we'll check with it and get back to you at the earliest. ^KH
+
+--------------------------------------------------------------------------------
+
+[4]
+Conversation ID: 988096
+Agent message:
+@354113 Kindly share your details on the link here: https://t.co/GIJyeYqKE0. We'll contact you soon. 2/2 ^PS
+
+--------------------------------------------------------------------------------
+
+[5]
+Conversation ID: 874834
+Agent message:
+@253774 I'm sorry your items arrived damaged, Sandra! We'd like to help the best we can. Just to confirm, was your item said (1/2)
+
+--------------------------------------------------------------------------------
+
+[6]
+Conversation ID: 789242
+Agent message:
+@308214 I understand your concern. Please contact us here: https://t.co/rS49hgaADF and we'll look into it. ^AM
+
+--------------------------------------------------------------------------------
+
+[7]
+Conversation ID: 451994
+Agent message:
+@222202 Thanks for the update, Alan! I'm sorry that the gift hasn't arrived. What is the latest tracking update? You can check here: https://t.co/Y5jpI9gRhE Please let us know! We'd like to help you get this taken care of. ^SM
+
+--------------------------------------------------------------------------------
+
+[8]
+Conversation ID: 350950
+Agent message:
+@199497 Sorry to hear that, was the item fulfilled by Amazon or a 3rd Party Seller? Did you contact us in relation to the delivery? ^JJ
+
+--------------------------------------------------------------------------------
+
+[9]
+Conversation ID: 2460284
+Agent message:
+@704514 Oh no! I'm sorry the gift you ordered came like that. We'd like to help! You can see all of our refund/replacement options here: https://t.co/bUAC4JPiNv ^AJ
+
+--------------------------------------------------------------------------------
+
+[10]
+Conversation ID: 314765
+Agent message:
+@190846 We're glad to hear the issue with your account has been resolved. Thanks for keeping us posted. ^MA
+
+--------------------------------------------------------------------------------
+
+[11]
+Conversation ID: 2677369
+Agent message:
+@753508 I'm sorry to hear this. Have you had a chance to update your delivery preferences here: https://t.co/JgkyUy1gcS? ^GR
+
+--------------------------------------------------------------------------------
+
+[12]
+Conversation ID: 1653420
+Agent message:
+@504542 I'm sorry for the stretch with the refunds. Please fill this form: https://t.co/beaaDm0muc &amp; we'll look into this.^SF
+
+--------------------------------------------------------------------------------
+
+[13]
+Conversation ID: 134901
+Agent message:
+@146409 Some orders can take a bit longer to be looked into. If you don't get an update within 24 hours regarding the delivery, please let us know.^BZ
+
+--------------------------------------------------------------------------------
+
+[14]
+Conversation ID: 130383
+Agent message:
+@145401 I'm sorry for the delay. Digital orders can take up to four hours to process. Once the order is complete you'll receive a confirmation e-mail. ^LR
+
+--------------------------------------------------------------------------------
+
+[15]
+Conversation ID: 326329
+Agent message:
+@193745 Please contact us directly via phone so we can look into this for you: https://t.co/JzP7hlA23B ^JF
+
+--------------------------------------------------------------------------------
+
+[16]
+Conversation ID: 779517
+Agent message:
+@306166 the link here: https://t.co/GIJyeYqKE0 and we'll contact you soon. 2/3 ^PS
+
+--------------------------------------------------------------------------------
+
+[17]
+Conversation ID: 831082
+Agent message:
+@243942 We've sent the correspondence to your registered email ID. Kindly check it here: https://t.co/8DAc119Io4 1/2 ^EM
+
+--------------------------------------------------------------------------------
+
+[18]
+Conversation ID: 2293372
+Agent message:
+@665982 I'm so sorry we let you down! This isn't at all what we aim for, and we want to help if we can. Without personal info, can you tell us more about the issue you were contacting us about? ^JN
+
+--------------------------------------------------------------------------------
+
+[19]
+Conversation ID: 2735689
+Agent message:
+@766659 I certainly understand your concern! We strive to meet the date given in check out. Have we missed the delivery date sent to you in your order confirmation email? You can also view this date here: https://t.co/aaDyEz1VgE. ^HC
+
+--------------------------------------------------------------------------------
+
+[20]
+Conversation ID: 120148
+Agent message:
+@142675 If you select "Upcoming" on the right hand side of the page of our deals, as a Prime member, you will have access to these deals 30 minutes early! You can check those out here: https://t.co/yJmcxcmJX7 ^BE
+
+--------------------------------------------------------------------------------
+
+[21]
+Conversation ID: 2531132
+Agent message:
+@720452 Sorry about that, were you given a reason for the issue? ^AS
+
+--------------------------------------------------------------------------------
+
+[22]
+Conversation ID: 683020
+Agent message:
+@283002 I'm sorry for the inconvenience. Please contact us using this link https://t.co/vlvfJr4nN9 and our support team will assist you accordingly. ^MD
+
+--------------------------------------------------------------------------------
+
+[23]
+Conversation ID: 2938261
+Agent message:
+@133889 I'm very sorry to hear about the trouble with your order! We'd like to help you get this reported. When you have the chance, please fill in your details here: https://t.co/58EhIiVIn7 and a specialist will contact you as soon as possible. ^HC
+
+--------------------------------------------------------------------------------
+
+[24]
+Conversation ID: 2459194
+Agent message:
+@410967 I apologize for the delay in resolving this issue. Please reply to the email sent to you by our team. We'll help you. ^PJ
+
+--------------------------------------------------------------------------------
+
+[25]
+Conversation ID: 1632461
+Agent message:
+@324180 I'm sorry your parcel hasn't arrived yet! Has the tracking been updated at all: https://t.co/aaDyEz1VgE ^LB
+
+--------------------------------------------------------------------------------
+
+[26]
+Conversation ID: 782691
+Agent message:
+@124407 You can use this link: https://t.co/2n73phHPtG to contact an agent via chat and speak about the order. ^JJ
+
+--------------------------------------------------------------------------------
+
+[27]
+Conversation ID: 1826073
+Agent message:
+@5112 We'd like to escalate this to our Logistics team on your behalf. Please securely relay details here: https://t.co/k6znd3eaF5 ^MV
+
+--------------------------------------------------------------------------------
+
+[28]
+Conversation ID: 2672269
+Agent message:
+@752406 Sorry for the hassle. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. ^HN
+
+--------------------------------------------------------------------------------
+
+[29]
+Conversation ID: 999115
+Agent message:
+@356576 Apologies,I’d like to help you; please share your details here: https://t.co/beaaDm0muc and I’ll contact you soon.(1/2) ^VR
+
+--------------------------------------------------------------------------------
+
+[30]
+Conversation ID: 26912
+Agent message:
+@121893 Hi, what info did we give about the dispatch issue? Were any options provided? ^TS
+
+--------------------------------------------------------------------------------
+
+[31]
+Conversation ID: 520713
+Agent message:
+@240207 You're welcome! Let us know if you need any help to get this resolved! We'll be here! ^EA
+
+--------------------------------------------------------------------------------
+
+[32]
+Conversation ID: 1658728
+Agent message:
+@309170 your details here: https://t.co/GIJyeYqKE0. We'll check and take appropriate actions. 2/2 ^PS
+
+--------------------------------------------------------------------------------
+
+[33]
+Conversation ID: 1271884
+Agent message:
+@417737 -with the issue that you are facing. Also, please don't provide your order details, we consider it to be personal (2/3)^GU
+
+--------------------------------------------------------------------------------
+
+[34]
+Conversation ID: 996695
+Agent message:
+@356016 The cell phone never shipped because it was reported as an unauthorized charge. The order would have been canceled. 1/2 ^ZW
+
+--------------------------------------------------------------------------------
+
+[35]
+Conversation ID: 503404
+Agent message:
+@235303 Sorry for the wait! Have we provided an updated delivery date in your account here: https://t.co/Y5jpI9gRhE ? ^BG
+
+--------------------------------------------------------------------------------
+
+[36]
+Conversation ID: 761268
+Agent message:
+@191547 We'd like to take a closer look into the delay. Please send us your details here: https://t.co/HvQGznhHMr ^LI
+
+--------------------------------------------------------------------------------
+
+[37]
+Conversation ID: 1260835
+Agent message:
+@383566 That's strange! Please check for our correspondence here https://t.co/NTkrxpsbHJ. Keep us posted. ^AM
+
+--------------------------------------------------------------------------------
+
+[38]
+Conversation ID: 350574
+Agent message:
+@199408 I’d like to help you, please fill this form: https://t.co/beaaDm0muc and I’ll contact you soon.(1/2) ^PJ
+
+--------------------------------------------------------------------------------
+
+[39]
+Conversation ID: 323797
+Agent message:
+@193120 Sorry about that, please report that here: https://t.co/HQhpS2qeEd and we'll check that for you. ^MS
+
+--------------------------------------------------------------------------------
+
+[40]
+Conversation ID: 1442656
+Agent message:
+@367689 We've sent a correspondence to your registered email address. Please check and revert. ^SQ
+
+--------------------------------------------------------------------------------
+
+[41]
+Conversation ID: 335210
+Agent message:
+@195902 The link ^BV provided in our last post sends your info directly to our team so we can get this escalated. ^KJ
+
+--------------------------------------------------------------------------------
+
+[42]
+Conversation ID: 1359042
+Agent message:
+@436853 I know we're asking a lot of questions, but I assure you we are only asking so we can help you! Have you contacted USPS? ^CN
+
+--------------------------------------------------------------------------------
+
+[43]
+Conversation ID: 1288433
+Agent message:
+@421352 Sure thing. Could you report this to our support team here : https://t.co/2t6DQoUmNZ so that they can check what went wrong? ^PR
+
+--------------------------------------------------------------------------------
+
+[44]
+Conversation ID: 2748290
+Agent message:
+@769530 I can understand your frustration, however, we ship thousands of packages a day, some by automated process. We can't catch every error and that is why your feedback is so valuable. Please fill out the packaging feedback form provided to you. Thank you. ^SY
+
+--------------------------------------------------------------------------------
+
+[45]
+Conversation ID: 962650
+Agent message:
+@348433 Sorry for the delay! What's the delivery date and most recent tracking update on the order: https://t.co/Y5jpI9gRhE? ^EP
+
+--------------------------------------------------------------------------------
+
+[46]
+Conversation ID: 179694
+Agent message:
+@158320 We've dropped you a correspondence on the subject with more details, kindly check. ^KJ
+
+--------------------------------------------------------------------------------
+
+[47]
+Conversation ID: 1955388
+Agent message:
+@580379 Let me have a closer look into this; please fill this form: https://t.co/beaaDm0muc and we'll be back with an update. ^HS
+
+--------------------------------------------------------------------------------
+
+[48]
+Conversation ID: 2417662
+Agent message:
+@694751 Thanks for that John, apologizes for any inconvenience as soon as we have more info we will update on site first. ^NV
+
+--------------------------------------------------------------------------------
+
+[49]
+Conversation ID: 419407
+Agent message:
+@215020 That's odd! Let us investigate this further. Please drop your details here: (1/3) ^VM
+
+--------------------------------------------------------------------------------
+
+[50]
+Conversation ID: 1436645
+Agent message:
+@305792 Has the cash back not been credited yet. Do let us know, we'll work on it. ^CB
+
+--------------------------------------------------------------------------------
+
+[51]
+Conversation ID: 289599
+Agent message:
+@185012 Thanks for confirming, Christopher! Let's check on the status of your replacement here: https://t.co/aaDyEz1VgE ^FD
+
+--------------------------------------------------------------------------------
+
+[52]
+Conversation ID: 2488512
+Agent message:
+@710671 Is the case and screen protector still on time to you? You can check the status here: https://t.co/Y5jpI9gRhE ^MG
+
+--------------------------------------------------------------------------------
+
+[53]
+Conversation ID: 1073219
+Agent message:
+@373244 I'm sorry the order hasn't arrived yet! What's the delivery date and most recent tracking update: https://t.co/Y5jpI9gRhE? ^EP
+
+--------------------------------------------------------------------------------
+
+[54]
+Conversation ID: 2859848
+Agent message:
+@794710 I'm sorry for the delay! Have we sent any communication stating a reason why? ^TR
+
+--------------------------------------------------------------------------------
+
+[55]
+Conversation ID: 2816336
+Agent message:
+@233664 Thank you for the update, Randy! We're always here to help in any way that we can.
+
+--------------------------------------------------------------------------------
+
+[56]
+Conversation ID: 1371374
+Agent message:
+@439218 I'm not able to recreate the issue. Are you using https://t.co/5ol5X6rY2M, or a different site? ^ZW
+
+--------------------------------------------------------------------------------
+
+[57]
+Conversation ID: 2606651
+Agent message:
+@737424 I'm sorry to hear this! Were they all shipped with the same carrier? You can check here: https://t.co/Y5jpI9gRhE ^BH
+
+--------------------------------------------------------------------------------
+
+[58]
+Conversation ID: 656102
+Agent message:
+@276082 I tried to recreate this discrepancy, but was unable to do so. Are you checking out on a computer or a device such as a tablet or mobile? ^GR
+
+--------------------------------------------------------------------------------
+
+[59]
+Conversation ID: 270933
+Agent message:
+@180632 Hello, could you please elaborate on the issue? ^HN
+
+--------------------------------------------------------------------------------
+
+[60]
+Conversation ID: 181124
+Agent message:
+@158540 Please click on "skip sign in" in order to contact us. ^KM
+
+--------------------------------------------------------------------------------
+
+[61]
+Conversation ID: 2986448
+Agent message:
+@823470 Hello, I am sorry about the delay to your parcel. Has the tracking information been updated by the carrier?  We certainly would like to help if possible. ^CR
+
+--------------------------------------------------------------------------------
+
+[62]
+Conversation ID: 806305
+Agent message:
+@312148 offer at the moment. Further, I'll surely forward this as feedback internally for review. (2/2)^SQ
+
+--------------------------------------------------------------------------------
+
+[63]
+Conversation ID: 1051185
+Agent message:
+@215995 Thank you for flagging this. I've forwarded the details internally to have this reviewed &amp; corrected. ^EM
+
+--------------------------------------------------------------------------------
+
+[64]
+Conversation ID: 292793
+Agent message:
+@185734 Oh no! Have you contacted us here: https://t.co/hApLpMlfHN to look into options? ^TR
+
+--------------------------------------------------------------------------------
+
+[65]
+Conversation ID: 831572
+Agent message:
+@256565 I'm sorry for the delay. I'd like to look into the issue and set things right. Kindly provide your 1/2 ^SH
+
+--------------------------------------------------------------------------------
+
+[66]
+Conversation ID: 348748
+Agent message:
+@199017 Thanks for the confirmation, John. Our team will get back to you with a update soon. ^NK
+
+--------------------------------------------------------------------------------
+
+[67]
+Conversation ID: 1443267
+Agent message:
+@454875 We apologize for that. Could you report this to our team here :https://t.co/2t6DQoUmNZ so that we can check what went wrong? ^PR
+
+--------------------------------------------------------------------------------
+
+[68]
+Conversation ID: 998011
+Agent message:
+@356321 The price you see are the lowest we are able to offer. You can check the price of the product here : https://t.co/bPZAnv9WLy.^GD
+
+--------------------------------------------------------------------------------
+
+[69]
+Conversation ID: 1877733
+Agent message:
+@442559 Allow our support team to investigate this. You can report this here: https://t.co/R3EfhzgU8B. ^CB
+
+--------------------------------------------------------------------------------
+
+[70]
+Conversation ID: 2884941
+Agent message:
+@800227 You can take a quick look here to check for your confirmation e-mail. Please let us know if we've missed the delivery date provided:  https://t.co/dZ6kzrXM6z ​^SM
+
+--------------------------------------------------------------------------------
+
+[71]
+Conversation ID: 1381171
+Agent message:
+@283411 That's strange. Let us check and confirm this. Please reach us via (1/2) ^VM
+
+--------------------------------------------------------------------------------
+
+[72]
+Conversation ID: 529040
+Agent message:
+@242502 In order for a review to be published certain guidelines needs to be fulfilled. You can learn more about it, by clicking on 'Guidelines'. Keep us posted! ^YP
+
+--------------------------------------------------------------------------------
+
+[73]
+Conversation ID: 1400629
+Agent message:
+@445664 Depending on the courier, you may be able to contact them for instruction or set delivery preferences: https://t.co/wGTEk29UQd ^WM
+
+--------------------------------------------------------------------------------
+
+[74]
+Conversation ID: 1339629
+Agent message:
+@432470 Oh no! Was this shipped by Amazon or a third-party seller? You can check here: https://t.co/Y5jpI9gRhE ^NN
+
+--------------------------------------------------------------------------------
+
+[75]
+Conversation ID: 735306
+Agent message:
+@219794 Please check the spam folder as well, you should have received an email. ^HN
+
+--------------------------------------------------------------------------------
+
+[76]
+Conversation ID: 969784
+Agent message:
+@350165 Apologies for the stretch. We have sent a correspondence to your registered email ID, please check ^AH
+
+--------------------------------------------------------------------------------
+
+[77]
+Conversation ID: 2933546
+Agent message:
+@811203 I understand your concern regarding the delivery of the package. However, our products are shipped on time so that they can reach you by the estimated delivery date. Could you please confirm if we have missed the mentioned time frame? 1/2 ^AH
+
+--------------------------------------------------------------------------------
+
+[78]
+Conversation ID: 275518
+Agent message:
+@181817 I request you to reply to the mail sent from social media team.^VH
+
+--------------------------------------------------------------------------------
+
+[79]
+Conversation ID: 2769092
+Agent message:
+@774214 Unfortunately we couldn't comprehend the issue your facing, could you please elaborate so that we can assist you accordingly? ^MN
+
+--------------------------------------------------------------------------------
+
+[80]
+Conversation ID: 2884056
+Agent message:
+@130948 Sorry to know about the trouble you have gone through while contacting the support team. You may connect with the team from here https://t.co/TxK11znixD the team would do the needful to help. ^KK
+
+--------------------------------------------------------------------------------
+
+[81]
+Conversation ID: 560604
+Agent message:
+@251153 Have we missed the delivery date with a recent order of yours? If so, what is the current status of your order showing? You can review your order details here: https://t.co/Y5jpI9gRhE ^WM
+
+--------------------------------------------------------------------------------
+
+[82]
+Conversation ID: 2403878
+Agent message:
+@337236 Sorry to learn that, have you reported this to our support team? If not, please report this to our support team here: https://t.co/rS49hgaADF and we'll check all the possibilities of helping you with this. ^SU
+
+--------------------------------------------------------------------------------
+
+[83]
+Conversation ID: 874626
+Agent message:
+@327647 We don't have an update on that currently. We will continue to add new content. (1/2)
+
+--------------------------------------------------------------------------------
+
+[84]
+Conversation ID: 530719
+Agent message:
+@242923 We apologize for the delay. Allow our support team to investigate this. You can report this here: https://t.co/R3EfhyZiK1. Please don't provide your order details as we consider it personal information. Our twitter page is visible to public.
+ ^CB
+
+--------------------------------------------------------------------------------
+
+[85]
+Conversation ID: 2017523
+Agent message:
+@596654 Hey, you can purchase to Australia. Check out - https://t.co/utNrr05oSc ^TP
+
+--------------------------------------------------------------------------------
+
+[86]
+Conversation ID: 1439803
+Agent message:
+@454130 Thank you for sharing your details. We're working on this issue and will get in touch with you. ^SM (1/2)
+
+--------------------------------------------------------------------------------
+
+[87]
+Conversation ID: 974383
+Agent message:
+@351069 If you'd like to escalate this to our transportation team after the chat, provide more details here: https://t.co/QdS93sCPqC ^KB
+
+--------------------------------------------------------------------------------
+
+[88]
+Conversation ID: 2902495
+Agent message:
+@803917 I apologize for the trouble using your code, Victor! So we can best help you, will you confirm from which marketplace the coupon was purchased (https://t.co/hSs9w9f1pF, .co.uk, .es or another)? ^CS
+
+--------------------------------------------------------------------------------
+
+[89]
+Conversation ID: 2513434
+Agent message:
+@716256 I understand your concern, I'd like to check with this. Kindly drop in your details 1/3 ^AH
+
+--------------------------------------------------------------------------------
+
+[90]
+Conversation ID: 780866
+Agent message:
+@306432 Kindly wait till you receive an update. Appreciate your patience. ^AK
+
+--------------------------------------------------------------------------------
+
+[91]
+Conversation ID: 1210714
+Agent message:
+@404187 Sorry to hear this. Were you advised that the issue would be escalated to the carrier? ^KM
+
+--------------------------------------------------------------------------------
+
+[92]
+Conversation ID: 226342
+Agent message:
+@170031 Apologies Jaseem. We'd like more details. Please connect with us here:https://t.co/vlvfJr4nN9. We'll investigate right away. ^HK
+
+--------------------------------------------------------------------------------
+
+[93]
+Conversation ID: 811612
+Agent message:
+@313376 Kindly revert to the email sent by the Social Media team, or you can write back to us through the link provided earlier. ^EM
+
+--------------------------------------------------------------------------------
+
+[94]
+Conversation ID: 135049
+Agent message:
+@146427 Please let us know if removing and re-adding solved the issue for you.^PJ
+
+--------------------------------------------------------------------------------
+
+[95]
+Conversation ID: 1165688
+Agent message:
+@394188 We are following up with your issue to maintain the communication with the relevant team to ensue faster resolution.1/2 ^MJ
+
+--------------------------------------------------------------------------------
+
+[96]
+Conversation ID: 1547914
+Agent message:
+@317647 We have received your details, we are working on it. We'll get back to you soon with an update. ^SY
+
+--------------------------------------------------------------------------------
+
+[97]
+Conversation ID: 970581
+Agent message:
+@350312 Kindly reply to the email sent by the Social media team. We'll check this &amp; get back to you with an update. ^EM
+
+--------------------------------------------------------------------------------
+
+[98]
+Conversation ID: 254569
+Agent message:
+@176509 Thank you for confirming. Who is the carrier of the item? You can check that information here: https://t.co/aaDyEz1VgE ^FD
+
+--------------------------------------------------------------------------------
+
+[99]
+Conversation ID: 742383
+Agent message:
+@297512 We haven't made any announcement yet. Please stay tuned for the update. ^HN
+
+--------------------------------------------------------------------------------
+
+[100]
+Conversation ID: 2555089
+Agent message:
+@725573 Hey, when was the last time you have contacted us? ^MA
+
+--------------------------------------------------------------------------------
+
+[101]
+Conversation ID: 1160485
+Agent message:
+@393025 I do understand your concern. Please revert to the email you've received from us and we'll check this for you. ^HN
+
+--------------------------------------------------------------------------------
+
+[102]
+Conversation ID: 751262
+Agent message:
+@299564 If you have shared the details, you will receive an email notification here: https://t.co/qIV1GlaZIZ. Do check. ^RW
+
+--------------------------------------------------------------------------------
+
+[103]
+Conversation ID: 2960496
+Agent message:
+@817058 Our carriers can deliver as late as 21:00. If your order doesn't arrive by this time, please contact us here: https://t.co/JzP7hlA23B ^RA
+
+--------------------------------------------------------------------------------
+
+[104]
+Conversation ID: 2282017
+Agent message:
+@185401 Great question! While we are unable to provide a direct number we can supply the next best thing! Please use the following link and you'll be able to contact us directly, either by chat or phone, whichever you prefer. 😊 https://t.co/hApLpMlfHN ^JD
+
+--------------------------------------------------------------------------------
+
+[105]
+Conversation ID: 1515343
+Agent message:
+@471573 When things are delivered to your neighbors, who's typically the carrier? You can check here: https://t.co/Y5jpI9gRhE ^BL
+
+--------------------------------------------------------------------------------
+
+[106]
+Conversation ID: 2913212
+Agent message:
+@806457 Sorry for the trouble! We're here to help! Have you checked to see if your app is up to date? ^VB
+
+--------------------------------------------------------------------------------
+
+[107]
+Conversation ID: 1953562
+Agent message:
+@579971 We've responded to you here :https://t.co/FwOpnTnhd6. Request you to check the correspondence and reply for further assistance. ^PR
+
+--------------------------------------------------------------------------------
+
+[108]
+Conversation ID: 464284
+Agent message:
+@225396 I'm so sorry that you haven't received your package! Have you reached out to us to see if we can send you a replacement or refund? ^TN
+
+--------------------------------------------------------------------------------
+
+[109]
+Conversation ID: 964206
+Agent message:
+@180868 My team can make sure this is escalated. Send us your details here: https://t.co/2S6fZ6WhBV ^EP
+
+--------------------------------------------------------------------------------
+
+[110]
+Conversation ID: 453191
+Agent message:
+@222527 Thanks for bringing this to our attention. To better assist, may you confirm the carrier that delivered the order stated here: https://t.co/q4LAMZ3tbE?^GG
+
+--------------------------------------------------------------------------------
+
+[111]
+Conversation ID: 883904
+Agent message:
+@329902 Just to confirm, did we miss the delivery date in the confirmation e-mail? You can check here: https://t.co/D3008e9sBN ^BH
+
+--------------------------------------------------------------------------------
+
+[112]
+Conversation ID: 2531374
+Agent message:
+@720487 I'm afraid we'll not be able to re-initiated canceled orders. However, please write to us, (1/2)
+
+--------------------------------------------------------------------------------
+
+[113]
+Conversation ID: 2428235
+Agent message:
+@697193 Thanks for the update! Please keep us in the loop if further assistance is needed from us here on Social Media! ^TM
+
+--------------------------------------------------------------------------------
+
+[114]
+Conversation ID: 951967
+Agent message:
+@345837 Oh no! To confirm, who is the carrier for your order? Look under tracking details here: https://t.co/f27dW6b3QX ^MB
+
+--------------------------------------------------------------------------------
+
+[115]
+Conversation ID: 2643620
+Agent message:
+@745932 Please contact us here to review the order for you: https://t.co/hApLpMlfHN ^QJ
+
+--------------------------------------------------------------------------------
+
+[116]
+Conversation ID: 1689489
+Agent message:
+@150316 Please reach out to us, here: https://t.co/vlvfJr4nN9 and we'll check this. ^YP
+
+--------------------------------------------------------------------------------
+
+[117]
+Conversation ID: 2634121
+Agent message:
+@743703 Hi Diego. I'm sorry to see the error you're receiving! It appears to be an internet issue. Have you tried another application besides this one to see if it gives the same error? ^HC
+
+--------------------------------------------------------------------------------
+
+[118]
+Conversation ID: 1541993
+Agent message:
+@477773 I'm sorry for the unexpected charge! You can cancel the membership using these steps: https://t.co/JNFpKXgZeO ^SB
+
+--------------------------------------------------------------------------------
+
+[119]
+Conversation ID: 1373179
+Agent message:
+@372058 I'm sorry for the poor experience! We'd like to help. Please contact us via phone or chat here: https://t.co/oGDklGgbCZ ^SJ
+
+--------------------------------------------------------------------------------
+
+[120]
+Conversation ID: 780569
+Agent message:
+@306375 Sorry for the inconvenience. I'll be sure to pass your comments as feedback to our concerned team for review. ^GS
+
+--------------------------------------------------------------------------------
+
+================================================================================
+SECTION 2 — RANDOM AMAZONHELP MESSAGES
+================================================================================
+
+[1]
+Conversation ID: 499938
+Agent message:
+@137604 Fue un gusto, Gonzalo. Recuerda que estamos para ayudarte con cualquier consulta. ^AA
+
+--------------------------------------------------------------------------------
+
+[2]
+Conversation ID: 2538890
+Agent message:
+@722076 You can check who the carrier is here:  https://t.co/aaDyEz1VgE . Click 'Track Package' and the carrier details and current tracking information will be displayed. ^MI
+
+--------------------------------------------------------------------------------
+
+[3]
+Conversation ID: 2458401
+Agent message:
+@695189 Hello, Harrison. I'm sorry that you're having issues with your Alexa devices. Have you checked to see if they are using the most up to date software updates? You can find more info here: https://t.co/Pk61H9fgwE  ^FJ
+
+--------------------------------------------------------------------------------
+
+[4]
+Conversation ID: 348539
+Agent message:
+@198968 Apologies for the trouble Could you please let us know if your order cancelled? ^SB
+
+--------------------------------------------------------------------------------
+
+[5]
+Conversation ID: 215179
+Agent message:
+@167124 I'm sorry for the frustration! Can you tell us what your current Marketplace setting is? Found here: https://t.co/Im2XOrTYzn ^AC
+
+--------------------------------------------------------------------------------
+
+[6]
+Conversation ID: 408435
+Agent message:
+@212357 Yikes! This is not what we strive for in delivery. You can submit packaging feedback directly here: https://t.co/hUxkoDnId6 ^HM
+
+--------------------------------------------------------------------------------
+
+[7]
+Conversation ID: 563933
+Agent message:
+@135166 Thanks for the update. Please contact us by phone or chat for live troubleshooting assistance: https://t.co/EKXRLsnxJu ^GG
+
+--------------------------------------------------------------------------------
+
+[8]
+Conversation ID: 595625
+Agent message:
+@261140 Hola Mónica, sentimos mucho esta experiencia. ¿Has podido entrar en contacto por teléfono con @118923 para verificar la información? ^DA
+
+--------------------------------------------------------------------------------
+
+[9]
+Conversation ID: 1973483
+Agent message:
+@584455 Please report this to our support team here: https://t.co/TdDksLo6Mf and we'll look into this. (2/3) ^HD
+
+--------------------------------------------------------------------------------
+
+[10]
+Conversation ID: 2974895
+Agent message:
+@820450 交換を選択後、返金されているという状況について、メッセージセンターに何らかの連絡はきておりますでしょうか。https://t.co/T4O8Kak3dh 問題が解決しない場合は、状況を確認しますのでリンクよりお問い合わせください。https://t.co/J6YEizo6qC　MH
+
+--------------------------------------------------------------------------------
+
+[11]
+Conversation ID: 271880
+Agent message:
+@180883 I'm terribly sorry for the return trouble. Please try these steps again from a non-mobile browser: https://t.co/rDQdnnDs3i ^CL
+
+--------------------------------------------------------------------------------
+
+[12]
+Conversation ID: 1659665
+Agent message:
+@506335 🙇‍♂️🙇‍♂️🙇‍♂️　MH
+
+--------------------------------------------------------------------------------
+
+[13]
+Conversation ID: 1637212
+Agent message:
+@235311 I'm so sorry for this delay. Have you had a chance to let us look into options: https://t.co/JzP7hlA23B ^DO
+
+--------------------------------------------------------------------------------
+
+[14]
+Conversation ID: 2972829
+Agent message:
+@819924 I am so sorry your package was delayed! Did you receive an e-mail providing a new delivery date? ^LS
+
+--------------------------------------------------------------------------------
+
+[15]
+Conversation ID: 2318679
+Agent message:
+@672126 Can you tell us which Fire TV device you have? You can find all listed devices here: https://t.co/HLTS2ab2me ^KN
+
+--------------------------------------------------------------------------------
+
+[16]
+Conversation ID: 2652422
+Agent message:
+@748045 Sorry to know your order hasn't been delivered yet. We certainly did not expect this to happen. Kindly connect with our support team here: https://t.co/TdDksLo6Mf. We'll definitely look into it. ^PS
+
+--------------------------------------------------------------------------------
+
+[17]
+Conversation ID: 1019288
+Agent message:
+@361182 Oh, no! Who was the carrier for this delivery, Amy? You can check in your orders here:  https://t.co/Y5jpI9gRhE ^DG
+
+--------------------------------------------------------------------------------
+
+[18]
+Conversation ID: 2790425
+Agent message:
+@778822 You'll need to have funds on the card you are charging or your order will cancel. ^VS
+
+--------------------------------------------------------------------------------
+
+[19]
+Conversation ID: 63962
+Agent message:
+@130692 Hi Efrain! There are many reasons why a carrier would return a parcel. You can find info here: https://t.co/uIAHM0EXnw.^CN
+
+--------------------------------------------------------------------------------
+
+[20]
+Conversation ID: 422463
+Agent message:
+@214948 Which Amazon site are you using? ^BM
+
+--------------------------------------------------------------------------------
+
+[21]
+Conversation ID: 2697991
+Agent message:
+@758072 I'm sorry to see that we weren't able to deliver your package! Can you let us know who the carrier was for this order? You can review this information here: https://t.co/q4LAMZ3tbE ^JS
+
+--------------------------------------------------------------------------------
+
+[22]
+Conversation ID: 1101734
+Agent message:
+@379963 Please get in touch with our team using this link: https://t.co/rS49hgaADF and we'll look forward to assisting you. ^AK
+
+--------------------------------------------------------------------------------
+
+[23]
+Conversation ID: 1430362
+Agent message:
+@452176 |ω・).｡oO( たくさんご利用いただき・・・ありがとうございます・・・！） SK
+
+--------------------------------------------------------------------------------
+
+[24]
+Conversation ID: 418188
+Agent message:
+@214775 こちらの商品でしょうか。https://t.co/N342y7twkx
+通常配送をご利用でもご注文合計金額が2000円に満たない場合は、配送料が350円かかります。送料を合わせた金額がギフト券残高に足りているか、ご確認ください。 RI
+
+--------------------------------------------------------------------------------
+
+[25]
+Conversation ID: 1223677
+Agent message:
+@407069 I'm so sorry for the trouble with your orders! We'd like to help if we can. Just to confirm, did you place your orders using https://t.co/nUUp5MLhYl, https://t.co/st4oU5QbhP, or another website? ^JN
+
+--------------------------------------------------------------------------------
+
+[26]
+Conversation ID: 2139753
+Agent message:
+@426796 I'm sorry your parcel has yet to arrive! What's the latest tracking info shown here: https://t.co/aaDyEz1VgE​  ^SE
+
+--------------------------------------------------------------------------------
+
+[27]
+Conversation ID: 585704
+Agent message:
+@258284 I'm sorry for the trouble with your delivery. Please phone or chat with us to discuss options for your order with you here: https://t.co/JzP7hlA23B ^AN
+
+--------------------------------------------------------------------------------
+
+[28]
+Conversation ID: 2278682
+Agent message:
+@662545 Thank you for letting us know! I have verified that your information has been received. Someone will reach out to you as soon as possible. Let us know if you have any other questions or concerns. We are always here to help! ^AL
+
+--------------------------------------------------------------------------------
+
+[29]
+Conversation ID: 1443292
+Agent message:
+@120318 We'd like to check get this checked for you. Kindly share your details here: https://t.co/GIJyeYqKE0 and I'll contact you. ^GS
+
+--------------------------------------------------------------------------------
+
+[30]
+Conversation ID: 1083874
+Agent message:
+@375674 here: https://t.co/GIJyeYqKE0 and I'll reach out. (2/2) ^KA
+
+--------------------------------------------------------------------------------
+
