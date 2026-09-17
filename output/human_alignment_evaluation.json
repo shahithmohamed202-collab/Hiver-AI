@@ -1,0 +1,46 @@
+{
+  "evaluation": {
+    "human_examples": 150,
+    "retrieval_examples": 150,
+    "note": "Human labels are verification labels. Retrieval metrics measure the evidence characteristics of selected historical candidates and are not direct answer-quality or resolution-accuracy metrics."
+  },
+  "ec_model_vs_human": {
+    "accuracy": 0.6266666666666667,
+    "precision": 0.6266666666666667,
+    "recall": 0.6266666666666667,
+    "f1": 0.6266666666666667,
+    "roc_auc": 0.6429333333333334,
+    "confusion_matrix": [
+      [
+        47,
+        28
+      ],
+      [
+        28,
+        47
+      ]
+    ]
+  },
+  "retrieval_policy_summary": {
+    "semantic_only": {
+      "mean_selected_ec": 0.5304333333333333,
+      "high_or_medium_rate": 0.5133333333333333,
+      "high_rate": 0.22
+    },
+    "semantic_intent": {
+      "mean_selected_ec": 0.5415333333333333,
+      "high_or_medium_rate": 0.56,
+      "high_rate": 0.22
+    },
+    "semantic_ec": {
+      "mean_selected_ec": 0.6448333333333333,
+      "high_or_medium_rate": 0.7466666666666667,
+      "high_rate": 0.4
+    },
+    "full": {
+      "mean_selected_ec": 0.6114666666666667,
+      "high_or_medium_rate": 0.6933333333333334,
+      "high_rate": 0.3466666666666667
+    }
+  }
+}

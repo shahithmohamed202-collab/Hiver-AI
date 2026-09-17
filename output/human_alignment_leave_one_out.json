@@ -1,0 +1,65 @@
+{
+  "evaluation": {
+    "name": "leave_one_out_human_alignment",
+    "human_annotations": 150,
+    "evaluated_examples": 150,
+    "skipped_examples": 0,
+    "candidate_pool": 20,
+    "source_conversation_excluded": true,
+    "model": "all-MiniLM-L6-v2",
+    "faiss_vectors": 78781,
+    "corpus_records": 78781
+  },
+  "human_label_distribution": {
+    "NO": 75,
+    "YES": 75
+  },
+  "policies": {
+    "semantic_only": {
+      "n": 150,
+      "mean_selected_ec": 0.5233,
+      "medium_high_rate": 0.49333333333333335,
+      "high_rate": 0.21333333333333335,
+      "mean_selected_semantic_similarity": 0.7772027226289113,
+      "delta_mean_ec_vs_semantic_only": 0.0,
+      "delta_medium_high_rate_vs_semantic_only": 0.0,
+      "delta_high_rate_vs_semantic_only": 0.0
+    },
+    "semantic_intent": {
+      "n": 150,
+      "mean_selected_ec": 0.5424666666666667,
+      "medium_high_rate": 0.5466666666666666,
+      "high_rate": 0.20666666666666667,
+      "mean_selected_semantic_similarity": 0.7650887779394786,
+      "delta_mean_ec_vs_semantic_only": 0.019166666666666665,
+      "delta_medium_high_rate_vs_semantic_only": 0.05333333333333329,
+      "delta_high_rate_vs_semantic_only": -0.006666666666666682
+    },
+    "semantic_ec": {
+      "n": 150,
+      "mean_selected_ec": 0.7824,
+      "medium_high_rate": 0.9066666666666666,
+      "high_rate": 0.7533333333333333,
+      "mean_selected_semantic_similarity": 0.7489237666130066,
+      "delta_mean_ec_vs_semantic_only": 0.2591,
+      "delta_medium_high_rate_vs_semantic_only": 0.4133333333333333,
+      "delta_high_rate_vs_semantic_only": 0.5399999999999999
+    },
+    "full": {
+      "n": 150,
+      "mean_selected_ec": 0.7253333333333334,
+      "medium_high_rate": 0.86,
+      "high_rate": 0.6066666666666667,
+      "mean_selected_semantic_similarity": 0.7457399582862854,
+      "delta_mean_ec_vs_semantic_only": 0.2020333333333334,
+      "delta_medium_high_rate_vs_semantic_only": 0.36666666666666664,
+      "delta_high_rate_vs_semantic_only": 0.3933333333333333
+    }
+  },
+  "interpretation": {
+    "metric_meaning": "Selected evidence completeness measures whether each retrieval policy preferentially selects historical conversations with stronger evidence characteristics.",
+    "not_answer_quality": "These metrics do not directly measure answer correctness, resolution accuracy, or customer satisfaction.",
+    "human_alignment_note": "The human labels describe evidence completeness of the 150 sampled historical conversations. They are not ground-truth relevance labels for every retrieved candidate.",
+    "methodology_note": "The evaluation uses leave-one-out retrieval so the exact source conversation associated with each human example cannot be selected as its own retrieval result."
+  }
+}

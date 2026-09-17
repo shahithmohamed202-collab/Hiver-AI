@@ -1,268 +1,168 @@
-import pandas as pd
 from pathlib import Path
+import pandas as pd
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+INPUT_FILE = PROJECT_ROOT / "output" / "human_verification_150.csv"
+OUTPUT_FILE = PROJECT_ROOT / "output" / "human_annotations_clean.csv"
 
-INPUT_FILE = (
-    BASE_DIR
-    / "output"
-    / "human_annotation_sample.csv"
-)
-
-
-REQUIRED_COLUMNS = [
-    "annotation_id",
-    "conversation_id",
-    "D1_context_specificity",
-    "D2_action_specificity",
-    "D3_dm_redirect",
-    "D4_observable_outcome",
+LABEL_COLUMNS = [
     "evidence_complete",
     "action_observed",
     "customer_reaction_observed",
     "dm_redirect",
 ]
 
+EXPECTED_ROWS = 150
+VALID_LABELS = {"YES", "NO"}
 
-def clean_value(value):
+
+def normalize_label(value):
     if pd.isna(value):
-        return ""
+        return None
 
-    return str(value).strip().upper()
+    value = str(value).strip().upper()
+
+    if value in VALID_LABELS:
+        return value
+
+    return value
 
 
 def main():
-
     print("=" * 70)
     print("HUMAN ANNOTATION VALIDATION")
     print("=" * 70)
 
     if not INPUT_FILE.exists():
-        raise FileNotFoundError(
-            f"File not found:\n{INPUT_FILE}"
-        )
-
-    df = pd.read_csv(
-        INPUT_FILE,
-        encoding="utf-8-sig"
-    )
-
-    print(
-        f"\nRows in annotation file: {len(df):,}"
-    )
-
-    # --------------------------------------------------------
-    # Check required columns
-    # --------------------------------------------------------
-
-    missing_columns = [
-        column
-        for column in REQUIRED_COLUMNS
-        if column not in df.columns
-    ]
-
-    if missing_columns:
-        print("\nERROR: Missing columns:")
-
-        for column in missing_columns:
-            print(f"  - {column}")
-
+        print(f"\nERROR: Annotation file not found:")
+        print(INPUT_FILE)
         return
 
-    # --------------------------------------------------------
-    # Normalize annotation values
-    # --------------------------------------------------------
+    df = pd.read_csv(INPUT_FILE)
 
-    annotation_columns = [
-        "evidence_complete",
-        "action_observed",
-        "customer_reaction_observed",
-        "dm_redirect",
-    ]
+    print(f"\nInput file:")
+    print(INPUT_FILE)
 
-    for column in annotation_columns:
-        df[column] = df[column].apply(clean_value)
+    print(f"\nRows in annotation file: {len(df)}")
 
-    # --------------------------------------------------------
-    # Validate YES / NO values
-    # --------------------------------------------------------
+    if len(df) != EXPECTED_ROWS:
+        print(
+            f"WARNING: Expected {EXPECTED_ROWS} rows, "
+            f"but found {len(df)} rows."
+        )
+
+    # Normalize labels
+    for column in LABEL_COLUMNS:
+        if column in df.columns:
+            df[column] = df[column].apply(normalize_label)
 
     print("\nAnnotation validation:")
 
     all_valid = True
 
-    for column in annotation_columns:
+    for column in LABEL_COLUMNS:
+        if column not in df.columns:
+            print(f"  {column}: MISSING COLUMN")
+            all_valid = False
+            continue
 
-        values = set(
-            value
-            for value in df[column]
-            if value
-        )
+        invalid = df[column].notna() & ~df[column].isin(VALID_LABELS)
 
-        invalid = values - {"YES", "NO"}
+        missing = df[column].isna().sum()
 
-        if invalid:
-
+        if invalid.sum() == 0 and missing == 0:
+            print(f"  {column}: OK")
+        else:
             all_valid = False
 
-            print(
-                f"  {column}: INVALID VALUES "
-                f"{sorted(invalid)}"
-            )
+            if missing > 0:
+                print(f"  {column}: {missing} missing")
 
-        else:
+            if invalid.sum() > 0:
+                print(f"  {column}: {invalid.sum()} invalid values")
 
-            print(
-                f"  {column}: OK"
-            )
+    # Completed rows
+    completed_mask = df[LABEL_COLUMNS].notna().all(axis=1)
 
-    # --------------------------------------------------------
-    # Count completed annotations
-    # --------------------------------------------------------
+    completed = int(completed_mask.sum())
+    incomplete = int((~completed_mask).sum())
 
-    complete_mask = (
-        df[annotation_columns]
-        .notna()
-        .all(axis=1)
-        & (
-            df[annotation_columns]
-            != ""
-        ).all(axis=1)
-    )
+    print(f"\nCompleted annotations : {completed}")
+    print(f"Incomplete annotations: {incomplete}")
 
-    completed = int(
-        complete_mask.sum()
-    )
+    # Distribution
+    print("\nFinal label distributions:")
 
-    incomplete = len(df) - completed
+    for column in LABEL_COLUMNS:
+        print(f"\n{column}:")
 
-    print(
-        f"\nCompleted annotations : {completed:,}"
-    )
+        if column in df.columns:
+            counts = df[column].value_counts(dropna=False)
 
-    print(
-        f"Incomplete annotations: {incomplete:,}"
-    )
+            yes_count = int((df[column] == "YES").sum())
+            no_count = int((df[column] == "NO").sum())
 
-    # --------------------------------------------------------
-    # Evidence completeness distribution
-    # --------------------------------------------------------
+            print(f"  YES: {yes_count}")
+            print(f"  NO : {no_count}")
 
-    print(
-        "\nEvidence completeness:"
-    )
+            if df[column].isna().sum() > 0:
+                print(f"  MISSING: {int(df[column].isna().sum())}")
 
-    print(
-        df["evidence_complete"]
-        .value_counts(dropna=False)
-        .to_string()
-    )
+    # Consistency checks
+    print("\nConsistency checks:")
 
-    # --------------------------------------------------------
-    # Other annotation distributions
-    # --------------------------------------------------------
-
-    for column in [
-        "action_observed",
-        "customer_reaction_observed",
-        "dm_redirect",
-    ]:
-
-        print(
-            f"\n{column}:"
-        )
-
-        print(
-            df[column]
-            .value_counts(dropna=False)
-            .to_string()
-        )
-
-    # --------------------------------------------------------
-    # Basic consistency checks
-    # --------------------------------------------------------
-
-    print(
-        "\nConsistency checks:"
-    )
-
-    # If evidence is complete, there should normally
-    # be either an action or useful observable evidence.
-    suspicious_complete = df[
+    # Evidence complete but neither action nor reaction
+    complete_no_support = (
         (df["evidence_complete"] == "YES")
         & (df["action_observed"] == "NO")
         & (df["customer_reaction_observed"] == "NO")
-    ]
+    ).sum()
 
     print(
-        "  Complete but no action/reaction: "
-        f"{len(suspicious_complete):,}"
+        f"  Complete but no action/reaction: "
+        f"{int(complete_no_support)}"
     )
 
-    # DM redirect itself does not mean incomplete,
-    # so we only flag it for manual inspection.
-    complete_with_dm = df[
+    # Complete + DM redirect is allowed, so this is informational only
+    complete_dm = (
         (df["evidence_complete"] == "YES")
         & (df["dm_redirect"] == "YES")
-    ]
+    ).sum()
 
-    print(
-        "  Complete + DM redirect: "
-        f"{len(complete_with_dm):,}"
-    )
+    print(f"  Complete + DM redirect: {int(complete_dm)}")
 
-    # --------------------------------------------------------
     # Duplicate conversation IDs
-    # --------------------------------------------------------
+    duplicate_ids = 0
 
-    duplicate_ids = df[
-        df["conversation_id"].duplicated(
-            keep=False
+    if "conversation_id" in df.columns:
+        duplicate_ids = int(
+            df["conversation_id"].duplicated().sum()
         )
-    ]
 
-    print(
-        "  Duplicate conversation IDs: "
-        f"{len(duplicate_ids):,}"
-    )
+    print(f"  Duplicate conversation IDs: {duplicate_ids}")
 
-    # --------------------------------------------------------
-    # Save cleaned annotations
-    # --------------------------------------------------------
+    # Save only complete annotations
+    clean_df = df.loc[completed_mask].copy()
 
-    cleaned_file = (
-        BASE_DIR
-        / "output"
-        / "human_annotations_clean.csv"
-    )
-
-    df.to_csv(
-        cleaned_file,
-        index=False,
-        encoding="utf-8-sig"
-    )
-
-    # --------------------------------------------------------
-    # Final status
-    # --------------------------------------------------------
+    clean_df.to_csv(OUTPUT_FILE, index=False)
 
     print("\n" + "=" * 70)
 
-    if all_valid and incomplete == 0:
-        print(
-            "STATUS: READY FOR MODEL TRAINING"
-        )
+    if (
+        len(df) == EXPECTED_ROWS
+        and completed == EXPECTED_ROWS
+        and all_valid
+        and duplicate_ids == 0
+    ):
+        print("STATUS: VALIDATED — 150/150 annotations complete")
     else:
-        print(
-            "STATUS: FIX ANNOTATIONS BEFORE MODEL TRAINING"
-        )
+        print("STATUS: FIX ANNOTATIONS BEFORE MODEL TRAINING")
 
     print("=" * 70)
 
-    print(
-        f"\nCleaned file:\n{cleaned_file}"
-    )
+    print("\nCleaned file:")
+    print(OUTPUT_FILE)
 
 
 if __name__ == "__main__":
