@@ -1,0 +1,47 @@
+{
+  "evaluation": {
+    "task": "LLM judge vs human evidence-completeness agreement",
+    "human_annotation_file": "C:\\Users\\SHAHITH MOHAMED K\\Downloads\\Hiver-AI\\output\\human_verification_150.csv",
+    "judge_model": "phi3",
+    "judge_endpoint": "http://localhost:11434/api/generate",
+    "temperature": 0.0,
+    "timeout_seconds": 300,
+    "max_retries": 3,
+    "examples": 150,
+    "human_annotation_mode": "human verification of machine-assisted pre-labels",
+    "evaluation_status": "complete"
+  },
+  "metrics": {
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "cohen_kappa": 0.0,
+    "confusion_matrix": [
+      [
+        75,
+        0
+      ],
+      [
+        75,
+        0
+      ]
+    ],
+    "human_yes": 75,
+    "human_no": 75,
+    "judge_yes": 0,
+    "judge_no": 150,
+    "exact_agreement_count": 75,
+    "total_examples": 150,
+    "exact_agreement_rate": 0.5,
+    "action_observed_agreement_rate": 0.3466666666666667,
+    "customer_reaction_observed_agreement_rate": 0.7733333333333333,
+    "dm_redirect_agreement_rate": 0.84
+  },
+  "rubric_summary": {
+    "primary_label": "evidence_complete",
+    "positive_label": "YES",
+    "negative_label": "NO",
+    "uncertainty_rule": "When uncertain, choose NO."
+  }
+}

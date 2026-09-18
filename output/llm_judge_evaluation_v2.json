@@ -1,0 +1,33 @@
+{
+  "examples": 150,
+  "human_yes": 75,
+  "human_no": 75,
+  "judge_yes": 1,
+  "judge_no": 149,
+  "exact_agreement": 0.5066666666666667,
+  "accuracy": 0.5066666666666667,
+  "precision": 1.0,
+  "recall": 0.013333333333333334,
+  "f1": 0.02631578947368421,
+  "cohen_kappa": 0.013333333333333308,
+  "criterion_agreement": {
+    "action_observed": 0.6733333333333333,
+    "customer_reaction_observed": 0.36,
+    "dm_redirect": 0.8466666666666667
+  },
+  "criterion_evaluated_counts": {
+    "action_observed": 150,
+    "customer_reaction_observed": 150,
+    "dm_redirect": 150
+  },
+  "confusion_matrix": [
+    [
+      75,
+      0
+    ],
+    [
+      74,
+      1
+    ]
+  ]
+}
